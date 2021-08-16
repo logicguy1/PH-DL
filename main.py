@@ -14,7 +14,6 @@ print(LICNECE)
 
 time.sleep(1)
 
-
 import os # Standerd python modules
 import sys
 import subprocess
@@ -24,7 +23,7 @@ import ctypes
 
 os.system('cls' if os.name == 'nt' else 'clear') # Clear the LICNECE information to make the screen look nicer
 
-DEBUG = True
+DEBUG = False
 
 if DEBUG: # Set window title
     ctypes.windll.kernel32.SetConsoleTitleW("PornHub Downloader - Made by Drillenissen#4268 - DEBUG BUILD")
