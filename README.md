@@ -51,14 +51,14 @@
 </details>
 
 ## About The Project
-![screenshot1]()
+<img src="assets/screenshot1.png" alt="Image of product">
 
 The script will allow you to download both images and also files  
 If you don't know what I'm talking about when I say images you can locate them [here (NSFW)](https://www.pornhub.com/albums)  
 
 The script supports what I call categories, when you download a video the script will prompt you to type out a category where it will put the downloaded file there, see the image below
 
-![screenshot2]()
+<img src="assets/screenshot2.png" alt="Image of product 2">
 
 The script takes the full url when downloading the files, that looks like this:  
 `https://www.pornhub.com/view_video.php?viewkey=ph600dfff994b80`
