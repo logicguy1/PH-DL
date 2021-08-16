@@ -92,12 +92,12 @@ You need to install Python, that can be done [here](https://www.python.org)
 From there simply say yes to everything the script asks you for (after reading and agreeing of cause) and youre set
 
 ## Usage
-After <a href="#installation">running the files</a> everything should be setup and ready to go for you, if you want to download a video, press `1` and insert the url, it will download the files, give you a notification and then you can choose where you want the video to be saved (what category)
+After <a href="#installation">running the files</a> everything should be set-up and ready to go for you, if you want to download a video, press `1` and insert the URL, it will download the files, give you a notification and then you can choose where you want the video to be saved (what category)
 
-Downloading pictures and albums is a little diffrent since you can eather use a single image or a whole album
+Downloading pictures and albums is a little different since you can either use a single image or a whole album
 
-Album urls: https://www.pornhub.com/album/70564671
-Picture urls: https://www.pornhub.com/photo/803965741
+Album urls: https://www.pornhub.com/album/70564671  
+Picture urls: https://www.pornhub.com/photo/803965741  
 
 They get downloaded at the same place in the script
 
