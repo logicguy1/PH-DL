@@ -9,12 +9,23 @@ __version__ = "1.0"
 __author__  = "Drillenissen#4268"
 
 import modules.utilities as utilities
-
+from contextlib import contextmanager
+import sys, os
 import youtube_dl
 import time
 from pynotifier import Notification
 import os
 import shutil
+
+@contextmanager
+def suppress_stdout():
+    with open(os.devnull, "w") as devnull:
+        old_stdout = sys.stdout
+        sys.stdout = devnull
+        try:  
+            yield
+        finally:
+            sys.stdout = old_stdout
 
 def main():
     utilities.clear()
@@ -22,7 +33,8 @@ def main():
 
     print(" [+] Downloading stand by\n")
 
-    ydl = youtube_dl.YoutubeDL({'outtmpl': 'Video Downloads/%(uploader)s - %(title)s - %(id)s.%(ext)s'}) # If anyone knows how to mute the output of this send help :,)
+    with suppress_stdout():
+        ydl = youtube_dl.YoutubeDL({'outtmpl': 'Video Downloads/%(uploader)s - %(title)s - %(id)s.%(ext)s'}) # If anyone knows how to mute the output of this send help :,)
 
     with ydl:
         result = ydl.extract_info(
