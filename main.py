@@ -97,7 +97,7 @@ except ImportError as e:
     exit()
 
 modules = {
-    "1" :  {"function" : videoDownloader.main, "name" : "Download Video"},
+    "1" :  {"function" : os.system("python modules\vedioDownloader >/dev/null 2>&1, "name" : "Download Video"},
     "2" :  {"function" : pictureDownloader.main, "name" : "Download album or picture"},
     "3" :  {"function" : shuffler.main, "name" : "Shuffle / Unshuffle videos"},
     "4" :  {"function" : categoryEditor.main, "name" : "Manage categories"},
