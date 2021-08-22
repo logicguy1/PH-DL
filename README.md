@@ -89,7 +89,7 @@ You need to install Python, that can be done [here](https://www.python.org)
    python main.py
    ```
 
-From there simply say yes to everything the script asks you for (after reading and agreeing of cause) and youre set
+From there simply say yes to everything the script asks you for (after reading and agreeing of course) and you're set
 
 ## Usage
 After <a href="#installation">running the files</a> everything should be set-up and ready to go for you, if you want to download a video, press `1` and insert the URL, it will download the files, give you a notification and then you can choose where you want the video to be saved (what category)
