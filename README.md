@@ -13,7 +13,7 @@
   <h3 align="center">PH-DL</h3>
 
   <p align="center">
-    The PornHub Downloader is a script used to download and manage both videos and pictures
+    The PornHub Downloader is a powerfull script used to download and manage both videos and pictures
     <br />
     <a href="https://github.com/logicguy1/PH-DL"><strong>Explore the docs »</strong></a>
     <br />
