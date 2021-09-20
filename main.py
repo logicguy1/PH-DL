@@ -21,7 +21,7 @@ import modules.utilities as utilities
 
 os.system('cls' if os.name == 'nt' else 'clear') # Clear the LICNECE information to make the screen look nicer
 
-DEBUG = True
+DEBUG = False
 # Check if the required folders are setup
 print(" [+] Checking requred folders")
 
