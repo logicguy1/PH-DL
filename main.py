@@ -16,20 +16,12 @@ time.sleep(1)
 
 import os # Standerd python modules
 import sys
-import subprocess
-import shutil
 import traceback
-import ctypes
+import modules.utilities as utilities
 
 os.system('cls' if os.name == 'nt' else 'clear') # Clear the LICNECE information to make the screen look nicer
 
-DEBUG = False
-
-if DEBUG: # Set window title
-    ctypes.windll.kernel32.SetConsoleTitleW("PornHub Downloader - Made by Drillenissen#4268 - DEBUG BUILD")
-else:
-    ctypes.windll.kernel32.SetConsoleTitleW("PornHub Downloader - Made by Drillenissen#4268")
-
+DEBUG = True
 # Check if the required folders are setup
 print(" [+] Checking requred folders")
 
@@ -61,7 +53,7 @@ print("\n [+] Checking requred packages")
 
 while True: # Will run untill all the packages has been installed and imported successfully
     try:
-        import youtube_dl # Python packages that needs to be installed
+        # import youtube_dl # Python packages that needs to be installed
         from pynotifier import Notification
         from bs4 import BeautifulSoup
         import requests
@@ -80,7 +72,6 @@ while True: # Will run untill all the packages has been installed and imported s
 
 print("\n [+] Loading Modules") # Load the external files of the project
 try:
-    import modules.utilities as utilities
     import modules.videoDownloader as videoDownloader
     import modules.pictureDownloader as pictureDownloader
     import modules.shuffler as shuffler
