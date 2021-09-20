@@ -9,6 +9,8 @@ __version__ = "1.0"
 __author__  = "Drillenissen#4268"
 
 import os
+import subprocess
+import sys
 
 def clear(): # Used to clear the screen
     os.system('cls' if os.name == 'nt' else 'clear')
