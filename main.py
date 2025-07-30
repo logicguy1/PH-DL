@@ -57,6 +57,7 @@ while True: # Will run untill all the packages has been installed and imported s
         from pynotifier import Notification
         from bs4 import BeautifulSoup
         import requests
+        import youtube_dl
 
 
         print(" [+] All requred packages are installed")
